@@ -1,0 +1,17 @@
+/* miniprogram/pages/teacherpage/createslection/createslection.wxss */
+.weui-select{
+  color: yellowgreen;
+  font-weight: bolder;
+}
+
+.onrow{
+  display: flex;
+  flex-direction: row;
+}
+.btn-left{
+  margin-right: 20px;
+}
+
+.btn-right{
+  margin-left: 20px;
+}

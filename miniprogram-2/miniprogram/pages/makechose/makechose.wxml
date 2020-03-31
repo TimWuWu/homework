@@ -1,0 +1,25 @@
+<!--pages/makechose/makechose.wxml-->
+<view class="container">
+
+  <view class="title">{{question.order}}</view>
+  
+  <view class="body">
+    <text>{{question.asking}}</text>
+  </view>
+
+  <view class="voice">
+      <audio poster="{{poster}}" name="A small quiz" author="The best yoyo" src="{{audiosrc}}" id="myAudio" controls loop></audio>
+  </view>
+
+  <form class='slectform' bindsubmit='formsubmit' bindreset="formReset">
+        <radio-group class="radio-group" name="youranswer">
+            <radio class="radio" wx:for="{{answers}}" wx:key="index" value="{{item}}" checked="{{pick}}">
+               <text>{{item}}</text>
+            </radio>
+        </radio-group>
+      <button class="btn" form-type='submit' type='primary'>下一题</button>
+ </form>
+</view>
+
+
+

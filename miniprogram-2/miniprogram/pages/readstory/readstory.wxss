@@ -1,0 +1,37 @@
+/* pages/deployFunctions/deployFunctions.wxss */
+
+.storytell{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.change{
+  display: flex;
+  flex-direction: row;
+}
+
+.title{
+  font-weight:bolder;
+  color: blue;
+  margin: auto;
+  font-size: large;
+}
+
+.body{
+  font-size: medium;
+  margin-top: 5px;
+  line-height:1.5em; 
+  text-indent:2em; 
+}
+
+.asking{
+  width: 95%;
+  margin-top: 20px;
+}
+
+.askingtext{
+  font-size: 40rpx;
+  color: red;
+}
+

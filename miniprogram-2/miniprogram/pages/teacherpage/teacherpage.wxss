@@ -1,0 +1,32 @@
+/* miniprogram/pages/teacherpage.wxss */
+.yoyo{
+  width: 160px;
+  height: 160px;
+  margin-top: 15px;
+}
+
+.title{
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.boxing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.boxing1{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon1{
+  margin-right: 25px;
+  border: 3px solid greenyellow;
+}
+.icon2{
+  margin-left: 25px;
+}

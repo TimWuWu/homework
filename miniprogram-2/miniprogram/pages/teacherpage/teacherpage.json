@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "管理中心",
+  "usingComponents": {
+      "mp-icon": "../../components/icon/icon"
+  }
+}

@@ -1,0 +1,22 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+    <view class="box">
+      <image style="width: 180px; height: 180px;" src="{{welcomelogo}}"></image>
+      <text class="innerbox">欢迎你，小朋友，第一次来yoyo老师的小测试吧，让老师认识你吧！</text>
+    </view>
+
+    <form bindsubmit="formSubmit">
+        <view class="section">
+          <view class="section__title">姓名：</view>
+          <input name="name" maxlength="10" placeholder="小朋友，名字填这里" />
+        </view>
+        <view class="section">
+          <view class="section__title">年龄：</view>
+          <input name="age" type="number" placeholder="小朋友，填数字就好" />
+        </view>
+        <view class="section">
+          <button formType="submit" type="primary">完成</button>
+        </view>
+    </form>
+</view>
+

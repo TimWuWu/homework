@@ -1,0 +1,35 @@
+/* pages/makechose/makechose.wxss */
+.title{
+  font-weight: bolder;
+  font-size: x-large;
+  color: blue;
+  margin-top: 25px;
+}
+.body{
+  width: 95%;
+  color:blue;
+  font-size: large;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.slectform{
+  width: 90%;
+}
+
+.radio-group{
+  display: flex;
+  flex-direction: column;
+}
+
+.radio{
+  margin-top: 20px;
+}
+.btn{
+  position:fixed; 
+  bottom:30px;
+  left: 80px;
+}
+
+.voice{
+  width: 95%;
+}

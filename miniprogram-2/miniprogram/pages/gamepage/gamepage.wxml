@@ -1,0 +1,27 @@
+<view class="container">
+
+      <view class="welcome">
+        <text>所有的成功都有奖励！恭喜你解锁休闲板块，小朋友，你真棒！！！</text>
+      </view>
+
+      <!-- 选择题入口 -->
+      <view class="gamegate" bindtap="jumpinto">
+        <button type="primary">跳一跳</button>
+      </view>
+
+      <!-- 阅读题入口 -->
+      <view class="gamegate">
+        <button type="primary">阅读题</button>
+      </view>
+
+      <!-- 视频入口 -->
+      <view class="gamegate">
+        <button type="primary">视频链接</button>
+      </view>
+
+      <!-- 奖励入口 -->
+      <view class="gamegate" >
+        <button type="primary">轻松一刻</button>
+      </view>
+ 
+</view>

@@ -1,0 +1,30 @@
+/* pages/scorepage/scorepage.wxss */
+
+.report{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.reporttext{
+  font-size: medium;
+  color:blue;
+  margin-top: 15px;
+}
+.score{
+  font-size: xx-large;
+  font-weight: bolder;
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.wronglist{
+  border-bottom: 0.13333rem solid #a1c9f8;
+}
+.btn{
+  border-top:1px solid red;
+  border-bottom:1px solid red;
+  background-color:blanchedalmond;
+  bottom: 30px;
+  position: fixed
+}

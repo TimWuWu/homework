@@ -1,0 +1,24 @@
+<!--miniprogram/pages/checking/checking.wxml-->
+<view class="container">
+  
+ <form class="form" bindsubmit="formSubmit">
+  <view class="section">
+    <view class="mark">姓名：</view>
+    <input name="name" class="input-value" placeholder="不输入代表查看全部学生" />
+  </view>
+  <view class="section">
+    <view class="mark">题目：</view>
+    <input name="title" class="input-value" placeholder="默认是:{{title}}" />
+  </view>
+ 
+  <view class="btn-area">
+    <button type="primary" formType="submit">查询</button>
+  </view>
+</form>
+  
+ <view class="answer" wx:for="{{answerlist}}" wx:key="index">
+      <text>学生：{{item.student}}</text>
+      <text>答案：{{item.answer}}</text>
+  </view>
+
+</view>

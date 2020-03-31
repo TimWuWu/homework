@@ -1,0 +1,31 @@
+<!--pages/readstory/readstory.wxml-->
+<view class="container">
+    <view class="voiceofyoyo">
+      <audio poster="{{poster}}" name="听故事" author="yoyo老师" src="{{srcone}}" id="myAudio" bindended="endisstart" hidden="true" controls></audio>
+    </view>
+    <view class="voiceofyoyo">
+      <audio poster="{{poster}}" name="听故事" author="yoyo老师" src="{{srctwo}}" id="myAudiotwo" bindended="endisstartwo" hidden="true" controls></audio>
+    </view>
+    <view class="storytell">
+      <text class="title">{{story.title}}</text>
+      <text class="body">{{story.body}}</text>
+    </view>
+    <view class="voiceofyoyo">
+      <audio poster="{{poster}}" name="问题" author="yoyo老师" hidden="true" src="{{srcthree}}" id="youAudio" controls loop></audio>
+    </view>
+    <view class="change">
+      <button class="lalala" bindtap="readquestion" type='primary'>读讲解</button>
+      <button class="lalala" bindtap="readstory" type='primary'>读故事</button>
+    </view>
+    <view class="asking">
+      <text class="askingtext">{{story.answer}}</text>
+  
+      <form bindsubmit="bindFormSubmit">
+        <button form-type="submit" type='primary'>返回</button>
+      </form>
+    </view>
+    
+
+
+</view>
+

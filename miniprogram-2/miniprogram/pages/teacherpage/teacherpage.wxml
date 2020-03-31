@@ -1,0 +1,28 @@
+<!--miniprogram/pages/teacherpage.wxml-->
+
+<view class="container">
+    
+    <view class="boxing">
+      <text class="title">管理中心</text>
+      <image class="yoyo" src="{{yoyo}}"></image>
+    </view>
+        
+    <view class="boxing">
+      <button class="weui-btn" type="primary" bindtap="createslection">选择题更新</button>
+      <button class="weui-btn" type="primary" bindtap="createreading">阅读题更新</button>
+      <button class="weui-btn" type="default">成绩单列表</button>
+      <button class="weui-btn" type="default">成绩单详情</button>
+    </view>
+        
+            
+    <view class="boxing1">
+      <view class="icon1">
+        <mp-icon type="field" icon="previous" color="black" size="{{40}}"></mp-icon>
+      </view>
+      <view class="icon2" bindtap="update">
+        <button size="{{size}}" type="{{type}}" hidden="{{btn}}">点击上传</button>
+      </view>
+    </view>
+  
+    
+</view>

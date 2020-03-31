@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/makechose/makechose",
+    "pages/gamepage/gamepage",
+    "pages/vedioplay/vedioplay",
+    "pages/readstory/readstory",
+    "pages/scorepage/scorepage",
+    "pages/login/login",
+    "pages/checking/checking",
+    "pages/teacherpage/teacherpage",
+    "pages/teacherpage/createslection/createslection",
+    "pages/teacherpage/createreading/createreading"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "yoyo和你一起学习",
+    "navigationBarTextStyle": "black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxd3ae9f954fda16cc"
+  ],
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.3",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

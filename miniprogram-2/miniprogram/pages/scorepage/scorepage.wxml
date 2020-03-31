@@ -1,0 +1,14 @@
+<!--pages/scorepage/scorepage.wxml-->
+<view class="container">
+    <view class="report">
+      <text class="reporttext">恭喜你{{student}}小朋友</text>
+      <text class="reporttext">你真棒！你完成了这次测试，你的得分是</text>
+      <text class="score">{{score}}</text>
+    </view>
+    <view class="wronglist" wx:for="{{wronglist}}"wx:key="index">
+      <text class=" ">{{item}} 还需要仔细看看</text>
+    </view>
+     <view class="btn" bindtap="onfinished">
+      <button >完成</button>
+    </view>
+</view>

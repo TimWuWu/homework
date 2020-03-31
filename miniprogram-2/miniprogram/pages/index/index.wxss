@@ -1,0 +1,36 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.userinfo{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.name{
+  color: blue;
+  font-weight:bolder;
+  margin-top: 20px;
+  font-size: x-large;
+}
+
+.welcome{
+  color:rgb(0, 81, 255);
+  width: 220px;
+}
+
+.yoyo{
+  width: 160px;
+  height: 160px;
+  margin-top: 20px;
+}
+.click{
+  margin-top: 25px;
+}
+

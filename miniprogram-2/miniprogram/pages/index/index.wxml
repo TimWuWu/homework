@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+  
+  
+  <view class="userinfo">
+    <text class="name">{{studentname}}</text>
+    <text class="welcome">欢迎你参加yoyo老师的小测试</text>
+    <image class="yoyo" src="{{welcomeimgUrl}}"></image>
+  </view>
+
+  
+ <view class="userinfo">
+      <!-- 选择题入口 -->
+      <view class="click" bindtap="select">
+        <button type="primary">进入测试</button>
+      </view>
+      
+      <!-- 听故事 -->
+      <view class="click" bindtap='story'>
+        <button type="primary">听故事</button>
+      </view>
+
+      <!-- 视频入口 -->
+      <view class="click" bindtap="intovedio">
+        <button type="primary">视频链接</button>
+      </view>
+
+      <!-- 老师查询入口 -->
+      <view class="click" bindtap="checking">
+        <button type="primary" hidden="{{checking}}">管理后台</button>
+      </view>
+  </view>
+
+</view>
